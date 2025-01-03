@@ -1,0 +1,98 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #333;
+    //padding: 1rem;
+    width:95%;
+    //border: 1px solid red;
+    //border-radius: 30px;
+    font-family: Arial;
+    height:10vh;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .navbar-sx .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    width: 250px;
+    height: 100px;
+  }
+  
+  .navbar-centro .nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0px;
+    align-items: center;
+  }
+  
+  .navbar-centro .nav-links li {
+    margin-right: 1rem;
+    padding:10px;
+  }
+  
+  .navbar-centro .nav-links a {
+    color: #333;
+    text-decoration: none;
+
+  }
+  .navbar-centro .nav-links bottone {
+    color: #333;
+    text-decoration: none;
+
+  }
+  
+ 
+  
+  .navbar-right .cart-icon,
+  .navbar-right .user-icon {
+    color: #333;
+    text-decoration: none;
+    margin-left: 1rem;
+    position: relative;
+  }
+  
+  .navbar-right .cart-count {
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 50%;
+    //padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+  }
+
+
+
+
+
+  .bottone {
+    background-color: #fff000;
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+   .bottone:not(:disabled):focus {
+    outline: 0;
+    background: #f4e603;
+    box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+  }
+  
